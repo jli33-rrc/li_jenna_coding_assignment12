@@ -23,7 +23,7 @@ cd li_jenna_coding_assignment12
 Build the Docker Image by using the following command:
 
 ```bash
-docker build -f Dockerfile.prod -t li_jenna_coding_assignment12:prod .
+docker build -f Dockerfile.prod -t li_jenna_coding_assignment12 .
 ```
 
 ### 3. Run the Docker Container
@@ -31,7 +31,7 @@ docker build -f Dockerfile.prod -t li_jenna_coding_assignment12:prod .
 Run the Docker Container by using the following command:
 
 ```bash
-docker run -d -p 8083:80 --name li_jenna_coding_assignment12 li_jenna_coding_assignment12:prod
+docker run -p 8083:8083 --name li_jenna_coding_assignment12 li_jenna_coding_assignment12
 ```
 
 ### 4. Access the Application
